@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -48.853638, y: 412.87}
+  m_AnchoredPosition: {x: -48.853638, y: 482}
   m_SizeDelta: {x: 266.6663, y: 87.659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &78860090
@@ -226,7 +226,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 78860092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 320457295}
+        m_TargetAssemblyTypeName: CargarEscena, Assembly-CSharp
+        m_MethodName: CargarNuevaEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Options (Accessibility)
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &78860092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -807.5823, y: 412.86975}
+  m_AnchoredPosition: {x: -807.5823, y: 481.99976}
   m_SizeDelta: {x: 105.1666, y: 87.659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &564427325
@@ -545,7 +557,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 564427327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 320457295}
+        m_TargetAssemblyTypeName: CargarEscena, Assembly-CSharp
+        m_MethodName: CargarNuevaEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Options (Video)
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &564427327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,7 +1020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -593.31555, y: 412.87}
+  m_AnchoredPosition: {x: -593.31555, y: 482}
   m_SizeDelta: {x: 135.0452, y: 87.659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &945632460
@@ -1063,7 +1087,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 945632462}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 320457295}
+        m_TargetAssemblyTypeName: CargarEscena, Assembly-CSharp
+        m_MethodName: CargarNuevaEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Options (Sound)
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &945632462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1433,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -356.86035, y: 412.87}
+  m_AnchoredPosition: {x: -356.86035, y: 482}
   m_SizeDelta: {x: 174.2918, y: 87.659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1636679445
@@ -1500,7 +1536,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1636679447}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 320457295}
+        m_TargetAssemblyTypeName: CargarEscena, Assembly-CSharp
+        m_MethodName: CargarNuevaEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Options (Graphics)
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1636679447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1732,7 +1780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3efcf33dc8a024f419d48a3b514dd996, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8c783b2c2c1199d46827511fc44f2331, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

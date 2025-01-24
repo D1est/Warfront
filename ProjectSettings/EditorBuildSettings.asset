@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/HomeMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Options.unity
+    path: Assets/Scenes/Options (Video).unity
     guid: 3bde07547bc45734080ab802638628f7
+  - enabled: 1
+    path: Assets/Scenes/Options (Sound).unity
+    guid: 2253abb2e5ed7a645898ffd085c035f6
+  - enabled: 1
+    path: Assets/Scenes/Options (Graphics).unity
+    guid: 95204ee2e7886f147a119927d07e9bde
+  - enabled: 1
+    path: Assets/Scenes/Options (Accessibility).unity
+    guid: e57568109aa084a4fa0cbb8217201801
   - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
     guid: 0b8a008072066b44693c84c094c286e2
